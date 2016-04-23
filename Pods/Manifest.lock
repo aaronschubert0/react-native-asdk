@@ -1,0 +1,42 @@
+PODS:
+  - AsyncDisplayKit (1.9.7.2):
+    - AsyncDisplayKit/PINRemoteImage (= 1.9.7.2)
+  - AsyncDisplayKit/ASDealloc2MainObject (1.9.7.2)
+  - AsyncDisplayKit/PINRemoteImage (1.9.7.2):
+    - AsyncDisplayKit/ASDealloc2MainObject
+    - PINRemoteImage/iOS (>= 2.1.2)
+  - PINCache (2.2.2)
+  - PINRemoteImage/Core (2.1.4):
+    - PINCache (>= 2.1)
+  - PINRemoteImage/iOS (2.1.4):
+    - PINRemoteImage/Core
+  - React/Core (0.23.1)
+  - React/RCTImage (0.23.1):
+    - React/Core
+    - React/RCTNetwork
+  - React/RCTNetwork (0.23.1):
+    - React/Core
+  - React/RCTText (0.23.1):
+    - React/Core
+  - React/RCTWebSocket (0.23.1):
+    - React/Core
+
+DEPENDENCIES:
+  - AsyncDisplayKit
+  - React/Core (from `./node_modules/react-native`)
+  - React/RCTImage (from `./node_modules/react-native`)
+  - React/RCTNetwork (from `./node_modules/react-native`)
+  - React/RCTText (from `./node_modules/react-native`)
+  - React/RCTWebSocket (from `./node_modules/react-native`)
+
+EXTERNAL SOURCES:
+  React:
+    :path: ./node_modules/react-native
+
+SPEC CHECKSUMS:
+  AsyncDisplayKit: 1701c47761a3e274b82cc0c77e6294cfa69612f6
+  PINCache: 078426d356ab95ef875e9e62e5c35a2ea3333c28
+  PINRemoteImage: 4ac4011c5caefd6befd99758e09becede05d3226
+  React: 0bc1e9a6369dc610ff0b29415ed0cab5229614f5
+
+COCOAPODS: 0.39.0
